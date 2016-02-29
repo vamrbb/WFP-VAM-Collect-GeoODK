@@ -90,7 +90,6 @@ public class SplashScreenActivity extends Activity {
             editor.commit();
             firstRun = true;
         }
-
         // do all the first run things
         if (firstRun || showSplash) {
             editor.putBoolean(PreferencesActivity.KEY_FIRST_RUN, false);
@@ -100,7 +99,6 @@ public class SplashScreenActivity extends Activity {
             //startSplashScreen(splashPath);
             endSplashScreen();
         }
-
     }
 
 
